@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE books  [
+<!ELEMENT books (textbooks+)>
+<!ELEMENT textbooks (name,author,publisher,price,isbn)>
+<!ELEMENT name (#PCDATA)> 
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>
+]>
+<?xml-stylesheet type="text/xsl" href="books.xsl"?>
+<books>
+    <textbooks>
+        <name>Kamam</name>
+        <author>iash</author>
+        <publisher>hitash</publisher>
+        <price>1000</price>
+        <isbn>571</isbn>
+    </textbooks>
+    <textbooks>
+        <name>Hary</name>
+        <author>hemanth</author>
+        <publisher>hari</publisher>
+        <price>500</price>
+        <isbn>572</isbn>
+    </textbooks>
+    <textbooks>
+        <name>Potter</name>
+        <author>hitaksh</author>
+        <publisher>hemanth</publisher>
+        <price>600</price>
+        <isbn>573</isbn>
+    </textbooks>
+</books>

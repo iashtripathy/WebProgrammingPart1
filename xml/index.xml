@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE order SYSTEM "order.dtd">
+<?xml-stylesheet type="text/xsl" href="order.xsl"?>
+<order id="1">
+    <customername>Rajat</customername>
+    <age>30</age>
+    <gender>M</gender>
+    <Item>
+        <ItemId>007</ItemId>
+        <ItemName>Samsung</ItemName>
+        <price>500</price>
+        <Quantity>90</Quantity>
+    </Item>
+    <Item>
+        <ItemId>501</ItemId>
+        <ItemName>Apple</ItemName>
+        <price>1001</price>
+        <Quantity>33</Quantity>
+    </Item>
+</order>

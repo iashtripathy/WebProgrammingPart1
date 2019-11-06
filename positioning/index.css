@@ -1,0 +1,21 @@
+.parent {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    margin-left: 100px;
+    position: relative;
+}
+
+.parent p {
+    position: relative;
+    z-index: 1;
+}
+
+.child {
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    /* margin-left: 0px; */
+    position: absolute;
+    left: 10px;
+}

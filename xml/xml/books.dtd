@@ -1,0 +1,8 @@
+<?xml version ="1.0" encoding="UTF-8"?>
+<!ELEMENT books (textbooks+)>
+<!ELEMENT textbooks (name,author,publisher,price,isbn)>
+<!ELEMENT name (#PCDATA)> 
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT publisher (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT isbn (#PCDATA)>

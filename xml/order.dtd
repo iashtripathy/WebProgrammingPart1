@@ -1,0 +1,10 @@
+<!ELEMENT order (customername,age,gender,Item+)>
+<!ATTLIST order id CDATA #IMPLIED>
+<!ELEMENT Item (ItemId,ItemName,price,Quantity)>
+<!ELEMENT customername (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT gender (#PCDATA)>
+<!ELEMENT ItemId (#PCDATA)>
+<!ELEMENT ItemName (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+<!ELEMENT Quantity (#PCDATA)>

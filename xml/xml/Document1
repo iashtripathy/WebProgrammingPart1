@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<schema  xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="books">
+    <xs:complexType>
+      <xs:sequence maxOccurs="unbounded">
+        <xs:element ref="textbooks"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="textbooks">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="author"/>
+        <xs:element ref="publisher"/>
+        <xs:element ref="price"/>
+        <xs:element ref="isbn"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:element name="name" type="xs:string"/>
+
+  <xs:element name="author" type="xs:string"/>
+
+  <xs:element name="publisher" type="xs:string"/>
+
+  <xs:element name="price" type="xs:string"/>
+
+  <xs:element name="isbn" type="xs:string"/>
+
+</schema>
